@@ -20,7 +20,6 @@ edit /etc/postgresql/9.5/main/pg_hba.conf. Find the line "local all all peer" an
 
 
 Then, login in to psql as postgres user, and run the following commands:
-
 ```
 sudo -u postgres psql
 
@@ -61,15 +60,6 @@ Finally, run the development server
 ```
 python manage.py runserver
 ```
-
-## Deploying to Heroku
-
-Install heroku cli app
-```sudo snap install --classic heroku```
-
-Then login to heroku
-```heroku login```
-
 
 
 
